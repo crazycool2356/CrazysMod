@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "crazysmod:cobbled_granite"
+    }
+  ],
+  "result": {
+    "item": "crazysmod:granite_rock",
+    "count": 9
+  }
+}

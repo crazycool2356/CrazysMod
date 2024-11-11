@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "crazysmod:diorite_rock"
+    }
+  },
+  "result": {
+    "item": "crazysmod:cobbled_diorite"
+  }
+}

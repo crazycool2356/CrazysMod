@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "crazysmod:cobbled_andesite"
+    }
+  ],
+  "result": {
+    "item": "crazysmod:andesite_rock",
+    "count": 9
+  }
+}

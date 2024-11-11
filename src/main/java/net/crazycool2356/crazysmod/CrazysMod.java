@@ -1,6 +1,7 @@
 package net.crazycool2356.crazysmod;
 
 import com.mojang.logging.LogUtils;
+import net.crazycool2356.crazysmod.block.ModBlocks;
 import net.crazycool2356.crazysmod.item.ModItems;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.CreativeModeTabs;
@@ -28,6 +29,7 @@ public class CrazysMod
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 
@@ -44,6 +46,14 @@ public class CrazysMod
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.ROCK);
+            event.accept(ModItems.ANDESITE_ROCK);
+            event.accept(ModItems.DIORITE_ROCK);
+            event.accept(ModItems.GRANITE_ROCK);
+        }
+        if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
+            event.accept(ModBlocks.COBBLED_ANDESITE);
+            event.accept(ModBlocks.COBBLED_DIORITE);
+            event.accept(ModBlocks.COBBLED_GRANITE);
         }
     }
 

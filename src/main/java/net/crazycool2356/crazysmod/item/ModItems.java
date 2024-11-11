@@ -13,6 +13,12 @@ public class ModItems {
 
     public static final RegistryObject<Item> ROCK = ITEMS.register("rock",
             () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> ANDESITE_ROCK = ITEMS.register("andesite_rock",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> GRANITE_ROCK = ITEMS.register("granite_rock",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> DIORITE_ROCK = ITEMS.register("diorite_rock",
+            () -> new Item(new Item.Properties()));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

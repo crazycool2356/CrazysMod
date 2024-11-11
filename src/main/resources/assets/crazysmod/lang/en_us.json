@@ -1,3 +1,10 @@
 {
-  "item.crazysmod.rock": "Rock"
+  "item.crazysmod.rock": "Rock",
+  "item.crazysmod.andesite_rock": "Andesite Rock",
+  "item.crazysmod.diorite_rock": "Diorite Rock",
+  "item.crazysmod.granite_rock": "Granite Rock",
+
+  "block.crazysmod.cobbled_andesite": "Cobbled Andesite",
+  "block.crazysmod.cobbled_diorite": "Cobbled Diorite",
+  "block.crazysmod.cobbled_granite": "Cobbled Granite"
 }
